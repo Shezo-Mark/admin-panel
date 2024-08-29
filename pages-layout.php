@@ -23,17 +23,15 @@ include 'sidebar.php';
                 <div class="row">
                         <div class="col-12">
                             <div class="card mb-3">
-                                <div class="card-body py-2  px-3 rounded">
+                                <div class="card-body p-3 rounded">
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Home Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Home Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
@@ -41,14 +39,12 @@ include 'sidebar.php';
 
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Home Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Home Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
@@ -57,14 +53,12 @@ include 'sidebar.php';
 
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">About Us Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">About Us Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
@@ -72,14 +66,12 @@ include 'sidebar.php';
 
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Who We Are Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Who We Are Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
@@ -87,14 +79,12 @@ include 'sidebar.php';
                                     
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Our Services Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Our Services Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
@@ -102,14 +92,12 @@ include 'sidebar.php';
                                     
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Locations Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Locations Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
@@ -117,29 +105,25 @@ include 'sidebar.php';
                                     
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Blogs Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Blogs Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
                                     
                                     
-                                    <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
+                                    <div class="card-item this_hover bg-brand rounded px-4 py-2">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Contact Us Page
-                                            <div class="updated_btns ml-4">
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Edit</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">Deactivate Page</a>
-                                            </div>
-                                            </h5>
-                                            <p class="mb-0">Admin</p>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Contact Us Page</h5>
+                                                <div class="updated_btns ml-4">
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
+                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
+                                                </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
