@@ -1,0 +1,26 @@
+.free_fotter{
+    padding: 0 40px;
+    @include grid-md-down{
+        padding:0 10px;
+    }
+    .bg_gradiant{
+        // background-image: linear-gradient(90deg, #ED3423 -23%, #000 100%);
+        // background-color:$brand-blue;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: $white;
+        border-radius: 10px;
+        position: relative;
+        z-index: 10;
+        margin-bottom: -45px;
+        padding: 60px 0px;
+        @include grid-md-down{
+            padding: 10px 0px;
+        }
+        @include grid-md-down{
+            margin-bottom: -15px;
+        }
+        @include grid-sm-down{
+            text-align: center;
+        }
+    }
+}

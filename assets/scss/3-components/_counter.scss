@@ -1,0 +1,35 @@
+.section_counter{
+    .container{
+        h3{   
+            color: white !important;
+        }
+        h6{
+            color: white !important;
+        }
+    }
+    .row{
+        margin-top: 80px;
+    }
+    .counter-item{
+        background-color: white;
+        padding: 20px 10px;
+        text-align: center;
+        i{
+            font-size: 40px;
+            color: $brand-blue;
+            margin-bottom: 20px;
+        }
+        .numscroller-info-top{
+            color: $brand-blue;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        .numscroller-big-bottom{
+            color: $brand-blue;
+            font-size: 17px;
+            letter-spacing: 1.3px;
+        }
+    }
+}

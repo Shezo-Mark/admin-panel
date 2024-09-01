@@ -1,0 +1,161 @@
+@media screen and (max-width:991px){
+    .mob_reverse{
+        flex-direction: column-reverse;
+    }
+    .btn_brand {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .btn_brand_blue{
+        padding: 10px;
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .w-75 {
+        width: 100% !important;
+    }
+    header .navbar-toggler {
+        padding: 7px;
+        border: 1px solid #ED323D;
+        .navbar-toggler-icon{
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+        span {
+            display: block;
+            background-color: #ED323D;
+            width: 20px;
+            height: 2px;
+            border-radius: 2px;
+            + span{
+                margin-top: 3px;
+            }
+    }
+  }
+    header .navbar-collapse {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        bottom: 0;
+        width: 100%;
+        background: #0A253A;
+        height: 100%;
+        transition: 0.5s;
+        padding: 50px 20px 30px 10px;
+        z-index: 99;
+        overflow-y: auto;
+    }
+    header .navbar-collapse.show {
+        left: 0;
+    }
+    header .navbar-collapse ul {
+        height: 100vh;
+    }
+    header .mob_logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-nav {
+    align-items: flex-start  !important;
+    }
+    header .header_main .navbar-nav li + li {
+        margin-left: 0;
+    }
+    header .header_main .navbar-nav li a{
+        color: white;
+    }
+    .mav-item{
+        margin-left: 0 !important;
+    }
+    .section_hero {
+        height: auto;
+}
+    .section_hero .hero_content {
+        padding: 40px 10px;
+    }
+    .section_services{
+        padding: 40px 0;
+        p{
+            font-size: 12px;
+        }
+        .service_item{
+            margin-bottom: 20px;
+        }
+    }
+    .section_testimonials .row {
+        padding: 57px 10px;
+        .col-md-4{
+            margin-bottom: 64px;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .main_form .form_list{
+            padding: 15px;
+        }
+    .main_form .form_list .form_fields .row + .row {
+            margin-top: 0px;
+        }
+    .main_form .form_list .form_fields .row .col-md-6{
+        margin-bottom: 20px;
+    }
+    .section_footer .footer_top .footer_left .footer_logo {
+        width: 110px;
+    }
+    .section_footer .footer_top .footer_left P {
+        font-size: 11px;
+    }
+    .section_footer .footer_top .footer_nav h6 {
+        font-size: 20px;
+    }
+    .section_footer .footer_top .footer_nav ul li {
+        margin-top: 8px;
+    }
+    .section_footer .footer_top .footer_nav ul li a {
+        font-size: 13px;
+    }
+    .footer_bottom  p{
+        font-size: 13px;
+    }
+    .section_about_us {
+        padding-bottom: 30px;
+    }
+    .section_about_us  p{
+        font-size: 15px;
+    }
+    .check_list li {
+        font-size: 13px;
+    }
+    .section_testimonials .testmonial_card .testimonial_content h3 {
+        font-size: 20px;
+        margin: 15px 0 6px;
+    }
+    .section_testimonials .testmonial_card .testimonial_content p {
+        font-size: 13px;
+       line-height: 1.2rem;
+        margin: 10px 0;
+    }
+    .section_our_team .testimonial_item .col-md-12 {
+        margin-bottom: 20px;
+    }
+   .section_our_team .testimonial_item {
+        padding: 0 10px;
+    }
+    .section_testimonials .testimonial_item {
+        padding: 60px 0px 20px;
+    }
+    .hero_section_banner {
+        height: 35vh;
+    }
+}

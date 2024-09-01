@@ -1,0 +1,63 @@
+/*--------------*\
+    Home Page
+\*--------------*/
+
+.section_about_us{
+    h2{
+        margin-bottom: 20px;
+    }
+    h5{
+        margin: 20px 0 7px;
+    }
+}
+.section_services{
+    color: $white;
+    padding: 60px;
+    .col-md-4{
+        margin-bottom: 30px;
+    }
+    .main_heading{
+        color: white;
+        margin-bottom: 20px;
+    }
+    .sub_title_services{
+        margin-bottom: 56px;
+
+    }
+    .service_item {
+        border-radius: 0;
+        border: 0px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        .card-img-top{
+            border-radius:0;
+            height: 280px;
+            object-fit: cover;
+        }
+        .service_content{
+            padding: 20px;
+            border-radius: 0 !important;
+            p{
+                color: #777;
+                font-size: 15px;
+                line-height: 1.5rem;
+                padding-bottom: 13px;
+            }
+            a{
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 4px;
+            }
+            }
+        }
+    }
+    .section_services{
+        &.bg_white{
+            background-color: white;
+            .service_item {
+                box-shadow: 0px 0px 5px 0px rgba(179, 179, 179, 0.75);
+                margin-bottom: 20px;
+               
+            }
+        }
+    }

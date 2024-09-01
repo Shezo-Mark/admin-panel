@@ -1,0 +1,47 @@
+
+/*-------section_about_services-------*/
+.office_location{
+    background-color: $brand-blue;
+    border-bottom: 1px solid gray;
+}
+.img_object {
+  .row{
+    @include grid-md-down{
+      flex-direction: column-reverse;
+    }
+  }
+  .about_thumb {
+    width: 100%;
+    height: 100%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.inner_about_services{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include grid-md-down{
+    flex-flow: column;
+  }
+}
+.object_left{
+  .row{
+    @include grid-md-down{
+      flex-direction: column-reverse;
+    }
+  }
+  .about_thumb {
+    width: 100%;
+    height: 100%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: left;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+/*--------------*\
+    text-helpers
+\*--------------*/
+.text-underline{
+  text-decoration: underline !important;
+}
+
+.txt_black {
+  color: #000 !important;
+}
+.txt_light{
+  color: #4F4F4F;
+}
+.txt_grey{
+  color:#82828A;
+}
+.txt_white{
+ color: white !important;
+}
+.text_brand{
+  color: $brand-blue !important;
+}
+.text_brand_blue{
+  color: $brand-blue;
+}
+.text_brand_light_blue{
+  color: #2B2B5E ;
+}
+.fs-24{
+  font-size: 24px !important;
+}
+.fs-20{
+  font-size: 20px !important;
+}
+.fs-18{
+  font-size: 18px !important;
+}

@@ -1,0 +1,265 @@
+/*--------------*\
+    Base
+\*--------------*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $main-font-family;
+  font-size: $body--main-font;
+  color: $body-main-color;
+  font-weight: $body-main-font-weight;
+  position: relative;
+  z-index: -2;
+  position: relative;
+  line-height: 1.7rem;
+}
+@include grid-xxl {
+   .container{
+    max-width: 1320px;
+   }        
+ }
+ h1,h2,h3,h4{
+  color: black;
+ }
+h1,h2,h3,h4,h5,h6,p{
+  margin-bottom: 0;
+}
+a{
+  //color: $white;
+  display: inline-block;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+    color: #efefef;
+  }
+}
+.primary_font{
+  font-size: $body-primary-font;
+}
+.secondrey_font{
+  font-size: $body-secondrey-font;
+}
+h1{
+  font-size: $size-1;
+  font-weight: 800;
+  @include grid-md-down {
+    font-size: 30px;
+  }
+}
+h2{
+  font-size: $size-2;
+  font-weight: 700;
+  @include grid-md-down {
+    font-size: 26px;
+  }
+}
+h3{
+  font-size: $size-3;
+  font-weight: 700;
+  @include grid-md-down {
+    font-size: 23px;
+  }
+}
+h4{
+  font-size: $size-4;
+  font-weight: 700;
+}
+.brand_heading{
+  font-size: 24px;
+  color: #0A253A;
+  font-weight: 700;
+  line-height:32.4px
+}
+.v_align{
+  vertical-align: middle;
+}
+.h_100{
+  height: 100%;
+}
+.brand_title_b{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  font-size: 15px;
+  @include grid-md-down {
+    margin-bottom: 20px;
+  }
+}
+.section{
+  padding: 80px 0;
+  @include grid-md-down {
+   padding: 30px 0;
+    }
+}
+.section_pt_80{
+  padding-top: 80px;
+  @include grid-md-down {
+    padding-top: 30px;
+     }
+}
+.section_pb_80{
+  padding-bottom: 80px;
+  @include grid-md-down {
+    padding-bottom: 30px;
+     }
+}
+.mb_40{
+  margin-bottom: 40px;
+}
+ul{
+  margin: 0;
+}
+.clr_brand{
+  display: inline-block;
+  color: #ED323D !important;
+}
+.flex_v_center{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+}
+.border_left{
+  position: relative;
+  padding-left: 15px;
+  &:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background-color: #ED323D;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+}
+.border_y{
+  border-top: 1px solid rgba(0, 0, 0, 0.055);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.055);
+}
+.border_r_0{
+  border-radius: 0 !important;
+}
+.fs-14{
+  font-size: 14px;
+}
+.bg_white{
+  background-color: white !important;
+}
+.bg_grey{
+  background-color: #F4F3F8 !important;
+}
+.lh_24{
+  line-height: 24px !important;
+}
+.px-20{
+  padding: 2px 20px !important;
+}
+.pb_80{
+  padding-bottom: 80px;
+  @include grid-md-down {
+    padding-bottom: 30px;
+     }
+}
+.pt_80{
+  padding-top: 80px;
+  @include grid-md-down {
+    padding-top: 30px;
+     }
+}
+.bg_brand_blue{
+  background: rgba(10, 37, 58, 0.93);
+}
+.w-f-content{
+  width: fit-content;
+}
+.border-d-left{
+  border-left: 2px dashed rgba(255, 255, 255, 0.73);
+}
+.h-100{
+  height: 100%;
+}
+.font-30{
+font-size: 30px;
+}
+
+.sub_title{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.font_cormorant{
+  font-family: "Cormorant Garamond", serif;
+  &.fw-500{
+    font-weight: 500;
+  }
+  &.fw-600{
+    font-weight: 600;
+  }
+  &.fw-400{
+    font-weight: 400;
+  }
+}
+
+.flex_align{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+hr.underline {
+  width: 10%;
+  background: red;
+  height: 2px
+}
+
+ul.list_none{
+  li{
+      list-style: none;
+  }
+}
+.object_fit{
+  object-fit: cover;
+}
+.fit_content{
+  width: fit-content;
+}
+.bg_dark{
+ background-image: url('/assets/images/section_bg.png') !important;
+// background-color: $brand_light_blue !important;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ position: relative;
+background-attachment: fixed;
+}
+.bg_calfornia{
+  background-image: url('/assets/images/calofonia.jpg') !important;
+  position: relative;
+  z-index: 1;
+  background-attachment: scroll;
+}
+.bg_calfornia:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.288);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.g-3{
+  .col-md-6,
+  .col-md-12{
+    margin-top: 16px;
+  }
+}
+.text_brand_red{
+  color: #ED323D !important;
+}

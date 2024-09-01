@@ -1,0 +1,29 @@
+.social_icon{
+    display: flex;
+    align-items: center;
+    a{
+        background-color: map-get($social-colors , social-bg );
+        width: 20px;
+        height: 20px;
+        border-radius:0 4px 0 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .5s;
+        i{
+            font-size: 10px;
+            color: $white;
+        }
+        &:hover{
+            border-radius:4px 0 4px 0;
+            background-color: $brand-blue;
+        }
+        + a{
+            margin-left: 10px;
+        }
+        
+    }
+    &.footr_social{
+        margin-top: 20px;
+    }
+}

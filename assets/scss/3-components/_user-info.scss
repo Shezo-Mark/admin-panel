@@ -1,0 +1,211 @@
+.section_user_info{
+   min-height: 100vh;
+   @include grid-md-down{
+    height: auto;
+}
+   > .container-fluid{
+    height: 100vh;
+    @include grid-md-down{
+        height: auto;
+    }
+    >.row{
+        height: 100%;
+        align-items: center;
+        @include grid-md-down{
+          flex-flow: column-reverse;
+        }
+        .col-md-6{
+            padding: 0;
+            height: 100%;
+            @include grid-md-down{
+                padding:0 15px;
+                height: auto;
+            }
+            &:last-of-type{
+                padding-left: 100px;
+                @include grid-md-down{
+                    padding:0 15px;
+                }
+            }
+            &:first-of-type{
+                @include grid-md-down{
+                    padding:0 ;
+                }
+            }
+        }
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .main_form{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        @include grid-md-down{
+          justify-content: flex-start;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          height: auto;
+        }
+        .user_quick_link{
+            max-width: 200px;
+            display: block;
+            margin: 0 auto 50px;
+            @include grid-md-down{
+                margin: 0 auto 30px;
+                max-width: 150px;
+               }
+
+        }
+        h2{
+            font-size: 28px;
+            font-weight: bold;
+            @include grid-md-down{
+             font-size: 25px;
+            }
+            
+        }
+        p{
+            font-size: 13px;
+        }
+         .form_list {
+            background-color: #fff;
+            border: 1px solid transparent;
+            border-radius: 0;
+            padding: 0 50px;
+            margin-top: 20px;
+            @include grid-md-down{
+                padding: 0;
+            }
+            .form_fields{
+                input{
+                    border-radius: 4px;
+                    font-size: 12px !important;
+                    min-height: 40px;
+                    width: 100%;
+                    &:focus{
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
+                .col-md-12, .col-md-6{
+                    margin-top: 20px;
+                    @include grid-md-down{
+                     margin-top: 0;
+                    }
+                }
+                .col-md-12{
+                    @include grid-md-down{
+                        margin-bottom: 20px;
+                       }
+                }
+            }
+        }
+        &.sign_up{
+            .col-md-6, .col-md-12{
+                padding: 0 10px;
+            }
+        }
+    }
+    }
+   }
+   .user_info_link{
+    padding-right: 10px;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 600;
+     a{
+        font-size: 12px;
+        font-weight: 600;
+        color: #ED323D;
+     }
+   }
+}
+
+#confirmPass{
+    .main_form{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        @include grid-md-down{
+          justify-content: flex-start;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          height: auto;
+        }
+        .user_quick_link{
+            max-width: 200px;
+            display: block;
+            margin: 0 auto 50px;
+            @include grid-md-down{
+                margin: 0 auto 30px;
+                max-width: 150px;
+               }
+
+        }
+        h2{
+            font-size: 28px;
+            font-weight: bold;
+            @include grid-md-down{
+             font-size: 25px;
+            }
+            
+        }
+        p{
+            font-size: 13px;
+        }
+         .form_list {
+            background-color: #fff;
+            border: 1px solid transparent;
+            border-radius: 0;
+            padding: 0 50px;
+            margin-top: 20px;
+            @include grid-md-down{
+                padding: 0;
+            }
+            .form_fields{
+                input{
+                    border-radius: 4px;
+                    font-size: 12px !important;
+                    min-height: 40px;
+                    width: 100%;
+                    &:focus{
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
+                .col-md-12, .col-md-6{
+                    margin-top: 20px;
+                    @include grid-md-down{
+                     margin-top: 0;
+                    }
+                }
+                .col-md-12{
+                    @include grid-md-down{
+                        margin-bottom: 20px;
+                       }
+                }
+            }
+        }
+        &.sign_up{
+            .col-md-6, .col-md-12{
+                padding: 0 10px;
+            }
+        }
+        .confirm_row{
+            display: flex;
+            justify-content: space-between;
+            // @include grid-md-down{
+            //    flex-flow: column;
+            //    }
+            input{
+                width: 23% !important;
+                height: 60px;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+    }
+}

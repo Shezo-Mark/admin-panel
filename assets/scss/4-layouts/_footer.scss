@@ -1,0 +1,57 @@
+/*--------------*\
+    Footer Section
+\*--------------*/
+.section_footer{
+    background-color: $brand_blue;
+    .row{
+   margin: 0 !important;
+    }
+        .footer_top{
+            border-bottom: 2px solid rgba(255, 255, 255, 0.13);
+            padding-bottom: 50px;
+            .footer_left{
+                .footer_logo{
+                    display: block;
+                    width: 200px;
+                    margin-bottom: 20px;
+                }
+                P{
+                    color: $white;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+            .footer_nav{
+                h6{
+                    color: $white;
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+                ul{
+                    padding-left: 0;
+                    list-style: none;
+                    li{
+                        color: $brand-blue;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-top: 16px;
+                        a{
+                            color: #FFF;  color: $white;
+                            font-size: 16px;
+                            font-weight: 400;
+                            text-decoration: none;
+                            &:hover{
+                                color: $brand-red;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+.free_fotter{
+    &.pt_80{
+        padding-top: 80px !important;
+    }
+}
