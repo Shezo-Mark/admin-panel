@@ -28,27 +28,13 @@ include 'sidebar.php';
                                         <div class="d-flex align-items-center justify-content-between">
                                             <h5 class="mb-0 d-flex align-items-center w-50">Home Page</h5>
                                                 <div class="updated_btns ml-4">
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a href="field-home.php" type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
                                                 </div>
                                             <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
                                         </div>
                                     </div>
-
-
-                                    <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Home Page</h5>
-                                                <div class="updated_btns ml-4">
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
-                                                </div>
-                                            <p class="mb-0">Published <br>2023/8/29 <span>at</span>10:00 PM</p>
-                                        </div>
-                                    </div>
-
 
 
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2 mb-3">
@@ -68,7 +54,7 @@ include 'sidebar.php';
                                         <div class="d-flex align-items-center justify-content-between">
                                             <h5 class="mb-0 d-flex align-items-center w-50">Who We Are Page</h5>
                                                 <div class="updated_btns ml-4">
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a href="field-who-we-are.php" type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
                                                 </div>
@@ -81,7 +67,7 @@ include 'sidebar.php';
                                         <div class="d-flex align-items-center justify-content-between">
                                             <h5 class="mb-0 d-flex align-items-center w-50">Our Services Page</h5>
                                                 <div class="updated_btns ml-4">
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a href="field-services.php" type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
                                                 </div>
@@ -107,7 +93,7 @@ include 'sidebar.php';
                                         <div class="d-flex align-items-center justify-content-between">
                                             <h5 class="mb-0 d-flex align-items-center w-50">Blogs Page</h5>
                                                 <div class="updated_btns ml-4">
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a href="field-blogs.php" type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
                                                 </div>
@@ -118,9 +104,9 @@ include 'sidebar.php';
                                     
                                     <div class="card-item this_hover bg-brand rounded px-4 py-2">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="mb-0 d-flex align-items-center w-50">Contact Us Page</h5>
+                                            <h5 class="mb-0 d-flex align-items-center w-50">Contact Us</h5>
                                                 <div class="updated_btns ml-4">
-                                                    <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
+                                                    <a href="field-contact.php" type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-success" style="font-size:10px;">Edit</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-info" style="font-size:10px;">View</a>
                                                     <a type="button" class="text-white btn mb-0 px-3 py-0 btn-flat btn-danger" style="font-size:10px;">Deactivate Page</a>
                                                 </div>

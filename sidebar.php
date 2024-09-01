@@ -15,7 +15,7 @@
                             <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Posts</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./pages-layout.html">All Post</a></li>
+                            <li><a href="./table-datatable.php">All Post</a></li>
                             <li><a href="./layout-fixed-header.html">Add New Post</a></li>
                             <li><a href="./layout-fixed-header.html">Categories</a></li>
                         </ul>
@@ -26,8 +26,8 @@
                             <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Pages</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./pages-layout.html">All Pages</a></li>
-                            <li><a href="./layout-fixed-header.html">All Templates</a></li>
+                            <li><a href="./pages.php">All Pages</a></li>
+                            <li><a href="./templates.php">All Templates</a></li>
                         </ul>
                     </li>
  
@@ -36,7 +36,7 @@
                             <i class="icon-globe-alt menu-icon"></i><span class="nav-text">User</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./pages-layout.html">All User</a></li>
+                            <li><a href="./pages-layout.php">All User</a></li>
                             <li><a href="./user.php">Administrator </a></li>
                             <li><a href="./layout-fixed-header.html">Add New User </a></li>
                         </ul>
@@ -47,7 +47,7 @@
                             <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Tools</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./pages-layout.html">Header</a></li>
+                            <li><a href="./pages-layout.php">Header</a></li>
                             <li><a href="./user.php">Footer </a></li>
                             <li><a href="./layout-fixed-header.html">Site Health</a></li>
                         </ul>
@@ -59,7 +59,7 @@
                             <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Appearance</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./pages-layout.html">Theme Info</a></li>
+                            <li><a href="./pages-layout.php">Theme Info</a></li>
                             <li><a href="./user.php">Widget Info </a></li>
                         </ul>
                     </li>
@@ -68,12 +68,11 @@
                     <li class="nav-label">Apps</li>
                     <li>
                         <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-envelope menu-icon"></i> <span class="nav-text">Email</span>
+                            <i class="icon-envelope menu-icon"></i> <span class="nav-text">Email Information</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./email-inbox.html">Inbox</a></li>
-                            <li><a href="./email-read.html">Read</a></li>
-                            <li><a href="./email-compose.html">Compose</a></li>
+                            <li><a href="./email-inbox.php">Vehicle Registration</a></li>
+                            <li><a href="./contact-inbox.php">Contact us</a></li>
                         </ul>
                     </li>
                     <li>
